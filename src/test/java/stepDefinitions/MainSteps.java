@@ -24,7 +24,8 @@ public class MainSteps {
 		Assert.assertTrue(false);
 	}
 	
-	
+
+	// this sends data in list
 	@When("User Signup into application")
 	public void user_signup_into_application(List<String> data) {
 	    

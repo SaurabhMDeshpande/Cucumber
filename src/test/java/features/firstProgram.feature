@@ -2,6 +2,7 @@
 
 Feature: Application Login
 
+ // this will run all the time before every scenario in this file only
 Background:
 Given setup the entries in database
 When launch the browser from config variables
